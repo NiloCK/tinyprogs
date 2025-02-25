@@ -1,7 +1,7 @@
 #!/bin/bash
 
 create_terminal_session() {
-    gnome-terminal --full-screen -- bash -c '
+    gnome-terminal --maximize -- bash -c '
     SESSION="my_workspace"
 
     # Check if session exists
